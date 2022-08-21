@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!--ICONE_DO_SITE-->
+	<link rel="apple-touch-icon" sizes="180x180" href="capa/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="capa/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="capa/favicon-16x16.png">
+	<!--FIM_ICONE DO SITE-->
+
+	<meta charset='utf-8'>
+	 <meta name="viewport" content="width=device-width, initial-scale= 1.0">
+	<link rel='stylesheet' href='style.css'>
+	<title>Gerador De Frase</title>
+</head>
+<body>
+	<div class="align-all" align="center">
+		<div class="container-flex">
+
+			<div class="titulo">
+				<h1>Gere Um Frase<br>Para Você!!!<hr></h1>
+			</div>
+
+			<div class="imagem" id='imagem'>
+				<img src="icon/giphy.gif" class="imagem">
+			</div>
+
+			<div class="requisicao_numero"><font size="5">
+				<input type="button" value="Gerar Frase" name='gerar' onclick="gerar_frase()" class="botao">
+			</div><hr>
+
+			<div class='frase_retornada' id='frase_retornada'>
+				...
+			</div>
+			
+		</div>
+	</div>
+
+	<script src='script.js'></script>
+</body>
+</html>
