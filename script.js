@@ -7,7 +7,7 @@ function gerar_frase(){
 
 	}
 
-	var num = (gerarNumero(1, 110));
+	var num = (gerarNumero(1, 120));
 
 	switch(num){
 		case 1:
@@ -448,6 +448,46 @@ function gerar_frase(){
 
 		case 110:
 			document.getElementById('frase_retornada').innerHTML = "A vida se contrai e se expande proporcionalmente à coragem do indivíduo."
+		break;
+
+		case 111:
+			document.getElementById('frase_retornada').innerHTML = "Não importa a cor do céu. Quem faz o dia bonito é você."
+		break;
+
+		case 112:
+			document.getElementById('frase_retornada').innerHTML = "Não coloque limites em seus sonhos, coloque fé."
+		break;
+
+		case 113:
+			document.getElementById('frase_retornada').innerHTML = "Sorria, só ria. Acalma, a alma. Se derrame, se der ame. Releve, se eleve. Respira, e não pira."
+		break;
+
+		case 114:
+			document.getElementById('frase_retornada').innerHTML = "Bonito é estar de bem com a vida."
+		break;
+
+		case 115:
+			document.getElementById('frase_retornada').innerHTML = "Bom dia! Independente do que estiver sentindo, levante-se, vista-se e saia para brilhar."
+		break;
+
+		case 116:
+			document.getElementById('frase_retornada').innerHTML = "Viver não é esperar a tempestade passar, é aprender a dançar na chuva."
+		break;
+
+		case 117:
+			document.getElementById('frase_retornada').innerHTML = "Prefira o sorriso, faz bem a você e aos que estão ao seu redor. Dê risada de tudo, de si mesmo. Não adie alegrias. Seja feliz hoje!"
+		break;
+
+		case 118:
+			document.getElementById('frase_retornada').innerHTML = "Não fique esperando o futuro para ser feliz, faça do presente a sua alegria."
+		break;
+
+		case 119:
+			document.getElementById('frase_retornada').innerHTML = "Nunca é tarde pra pegar uma velha história e escrever um novo final."
+		break;
+
+		case 120:
+			document.getElementById('frase_retornada').innerHTML = "O que você tem de diferente é o que você tem de mais bonito."
 		break;
 
 	}
